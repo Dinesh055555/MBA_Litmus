@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: litmus-ai-coach
+    runtime: static
+    buildCommand: echo "Static site ready"
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
